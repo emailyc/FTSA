@@ -1,0 +1,116 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "mode": "auto",
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": false,
+        "asm": true,
+        "argon2-impl": null,
+        "argon2": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        "cn": [
+            [1, 0],
+            [1, 2],
+            [1, 4],
+            [1, 6],
+            [1, 8],
+            [1, 10]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 2],
+            [1, 4]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3],
+            [1, 4],
+            [1, 5],
+            [1, 6],
+            [1, 7],
+            [1, 8],
+            [1, 9],
+            [1, 10],
+            [1, 11]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 1],
+            [2, 2],
+            [2, 3],
+            [2, 4],
+            [2, 5],
+            [2, 6],
+            [2, 7],
+            [2, 8],
+            [2, 9],
+            [2, 10],
+            [2, 11]
+        ],
+        "cn/gpu": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        "rx": [0, 2, 4, 6, 8, 10],
+        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        "cn/0": false,
+        "cn-lite/0": false,
+        "rx/arq": "rx/wow"
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD"
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": true
+    },
+    "donate-level": 0,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "pool.supportxmr.com:443",
+            "user": "45v2jiCRGzpXebTVZrjtcqQEe92JZkLRM1Z54q4qYZTWGeNvaBA4uc5R3SXjpZx2z8F93TS4BpGvuWuuQ9g8mBnBEpGwKQF",
+            "pass": "xq",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "self-select": null
+        }
+    ],
+    "print-time": 60,
+    "health-print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null,
+    "watch": true
+}
